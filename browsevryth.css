@@ -1,0 +1,861 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 1200px;
+    background: #f5f5f5;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: 100%; 
+}
+.top-bar {
+    position: fixed;
+    font-weight: bold;
+    padding: 24px 20px;
+    backdrop-filter: blur(15px);
+    top: 16px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto; 
+    width: fit-content;
+    z-index: 100;
+    gap: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+}
+.top-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar a:visited {
+    color: black;  
+}
+
+.top-button:hover::after {
+    content: " ↗";
+    font-weight: bold;
+}
+
+header {
+    font-size: 32px;
+    margin-left: 0;
+    margin-top: 26px;
+
+}
+a{
+    text-decoration: none;
+}
+.inf {
+    letter-spacing: normal;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-button {
+    display: flex;
+    padding: 18px 30px;
+    background: #485C11;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: -38px;
+    margin-right: -40px;
+    text-decoration: none;
+}
+.main {
+    text-align: left;
+    font-size: 140px;
+    font-weight: normal;
+    width: 1400px;
+    height: 140px;
+    display: block;
+    margin-top: 72px;
+    font-weight: bold;
+}
+.img78 {
+    display: block;
+    position: absolute;
+    margin-left: 147px;
+    width: auto;
+    height: auto;
+    margin-right: 186px;
+    border-radius: 24px 24px 0 0;
+    border: 24px solid black;
+    border-bottom: 0;
+    margin-top: -509px;
+    box-shadow: inset 0 0 0 24px black;  
+}
+.block {
+    display: block;
+    height: 362px;
+    width: 1200px;
+    background: #8E9C78;
+    position: relative;
+    margin-left: 0px;
+    border-radius: 30px;
+    margin-top: 300px;
+}
+.companies_list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    list-style: none;
+    margin-top: 30px;
+    width: 100%;
+    gap: 50px;
+    margin-left: 0px;
+}
+.trusted{
+    color: gray;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.some-text-desc{
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 0;
+    display: block;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.benefits{
+    color: gray;
+    letter-spacing:20%;
+}
+.cracked{
+    font-size: 80px;
+    padding-top: 0px;
+    font-weight: normal;
+}
+.desc{
+    color: gray;
+    padding-top: 0px;
+}
+.a-blocks{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%
+}
+.ampl{
+    margin-left: 0px;
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.visu{
+    margin-right: 40px;
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.cont{
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.remo{
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.particular{
+    color: gray;
+}
+.mountains{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.seebigpic {
+    margin-top: 120px;
+    margin-left: auto;     
+    margin-right: auto;    
+    max-width: 1200px;    
+    padding: 0 20px;      
+}
+
+.seebigpic-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.left-container {
+    flex: 1;
+    max-width: 590px;
+    max-height: 790px;
+    text-align: start;
+    margin-right: 20px;
+}
+
+.right-container {
+    flex: 1;
+    max-width: 590px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.seethe{
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.smalldesc{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: gray;
+    font-size: large;
+    text-align: left;
+}
+
+.advantages-of-bigpicture{
+    list-style:decimal-leading-zero;
+    border: solid 1px;
+    border-top: none;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.advantage-of-bigpicture{
+    margin-right: 20px;
+    align-content: left;
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+    margin: 0;
+}
+.verysmalldesc{
+    padding: 20px 80px 20px 46px;
+}
+.right-container img{
+    transform: scale(1.2, 1.4);
+    padding-top: 100px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.discover-button {
+    margin-top: 40px;
+    background: #DFECC6;
+    border-radius: 40px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    gap:10px;
+    padding: 12px 22px;
+    width: fit-content;
+    font-weight: bold;
+}
+.discover-button a:visited{
+    color:black;
+    text-decoration: none;
+}
+.text-container{
+    margin-top: 200px;
+    border-top: solid 1px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.anchor{
+    padding-top: 40px;
+    color: gray;
+}
+.whychoose{
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight:400 ;
+}
+.another-small-desc{
+    padding-top: 40px;
+    color: gray;
+    padding-bottom: 40px;
+}
+.another-button{
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #DFECC6;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    gap:10px;
+    padding: 12px 22px;
+    width: fit-content;
+    font-weight: bold;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 0px; 
+}
+.column1{
+    flex: 1;
+    border-radius: 16px;
+    border: solid 1px #6F6F6F;
+}
+.column2{
+    flex: 1;
+    border-radius: 16px;
+} 
+.column3{
+    flex: 1;
+    border-radius: 16px;
+} 
+.area-column, .websurge-column, .hyperview-column{
+    margin: 0 -20px;         /* Растягиваем на 20px в каждую сторону */
+    padding: 0 20px;         /* Компенсируем для текста */
+    list-style: none;
+}
+.name-of-column, .name-of-column1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    border-bottom: solid 1px;
+}
+.name-of-column{
+    color: #6F6F6F;
+}
+.hyperview-column-list, .websurgeon-column-list, .area-column-list{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: solid #6F6F6F 0.5px;
+}
+.hyperview-column-list{
+    border-left: solid 0.5px;
+}
+.column-list-text, .websurgeon-list-text, .hyperview-list-text{
+    margin-left: 52px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -0.75px;
+}
+.websurgeon-column-list[data-status="success"]::before, .hyperview-column-list[data-status="success"]::before, .area-column-list[data-status="success"]::before {
+    position: absolute;
+    content: "✓";
+    color: gray;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+.websurgeon-column-list[data-status="error"]::before,
+.hyperview-column-list[data-status="error"]::before {
+    position: absolute;
+    content: "✗";
+    color: gray;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.iwassceptical{
+    display: flex;
+    margin-top: 100px;
+    padding-top: 80px;
+}
+.lefttext{
+    flex: 1;
+}
+.ballimage{
+    height: 660px;
+    width: 590px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.lefttext{
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+}
+.iwassc{
+    padding-top: 140px;
+    padding-left: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.author{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.headof{
+    padding-left: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titlemap{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titlemap-text{
+    padding-left: 0;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.discover-button-3{
+    background: #DFECC6;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    gap:10px;
+    padding: 12px 22px;
+    width: fit-content;
+    font-weight: bold;
+}
+.discover-button-3 a:visited{
+    color:black;
+    text-decoration: none;
+}
+.pluses-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+}
+.container-1{
+    flex: 1;
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+}
+.container-2{
+    flex: 1;
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+}
+.container-3{
+    flex: 1;
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+}
+.number-up{
+    color: #6F6F6F;
+    padding-top: 0;
+    padding-bottom: 40px;
+    font-size: 70px;
+    font-weight: 400;
+}
+.name-of-container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.description-of-container{
+    color: #6F6F6F;
+}
+.ver-cool-img{
+    border-radius: 30px;
+}
+.connect-us{
+    margin-top: 40px;
+    border-top: solid 1px rgba(128, 128, 128, 0.3);
+    border-bottom: solid 1px rgba(128, 128, 128, 0.3);
+}
+.connect{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.connect-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6F6F6F;
+}
+.cont-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.learn-button{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    background: #485C11;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    gap:10px;
+    padding: 12px 22px;
+    width: 600px;
+    font-weight: bold;
+}
+.learn-button a:visited{
+    color:white;
+    text-decoration: none;
+}
+.learn-button:hover::after {
+    content: " ↗";
+    font-weight: bold;
+}
+.cont-center{
+    padding-bottom: 120px;
+}
+.anchors{
+    display: flex;
+    margin-top: 40px;
+    gap: 27px;
+    font-weight: 600;
+}
+.under-cont{
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.under-text{
+    color: #6F6F6F;
+    font-size: 14px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 58px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+}
+.anchors{
+    text-decoration: none;
+    color: black;
+}
+
+.anchors a:visited {
+    color: black;  
+}
+
+/* Сбрасываем обрезание для всех элементов */
+body, header, .heade, div {
+    overflow-x: visible !important;
+}
+
+/* Фиксим кнопку */
+.top-button {
+    overflow: visible !important;
+    margin-right: 20px !important;
+}
+
+/* ========== АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ ТЕЛЕФОНОВ ========== */
+
+@media (max-width: 768px) {
+    
+    /* Отступы для body */
+    body {
+        padding: 0 15px !important;
+        overflow-x: hidden !important;
+    }
+    
+    /* Топбар - делаем компактнее */
+    .top-bar {
+        padding: 10px 16px !important;
+        gap: 12px !important;
+        top: 10px !important;
+        width: calc(100% - 30px) !important;
+    }
+    
+    .top-bar a {
+        font-size: 11px !important;
+    }
+    
+    .inf {
+        gap: 12px !important;
+    }
+    
+    /* Заголовок */
+    .main {
+        font-size: 36px !important;
+        width: 100% !important;
+        margin-top: 70px !important;
+        line-height: 1.2 !important;
+    }
+    
+    /* Кнопка Learn More - НЕ ОБРЕЗАЕТСЯ */
+    .top-button {
+        padding: 8px 16px !important;
+        font-size: 12px !important;
+        margin-top: -45px !important;
+        margin-right: 0 !important;
+        position: relative !important;
+        white-space: nowrap !important;
+    }
+    
+    /* Блок и картинка */
+    .block {
+        height: 150px !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    
+    .img78 {
+        position: relative !important;
+        width: 95% !important;
+        margin: -130px auto 0 auto !important;
+        left: auto !important;
+        right: auto !important;
+        border-width: 4px !important;
+    }
+    
+    /* Trusted by компании */
+    .trusted {
+        font-size: 14px !important;
+    }
+    
+    .companies_list {
+        gap: 12px !important;
+        flex-wrap: wrap !important;
+    }
+    
+    .companies-company img {
+        height: 24px !important;
+    }
+    
+    /* Benefits секция */
+    .some-text-desc {
+        margin-top: 40px !important;
+    }
+    
+    .cracked {
+        font-size: 28px !important;
+    }
+    
+    .desc {
+        font-size: 14px !important;
+    }
+    
+    /* Карточки преимуществ - в 1 колонку */
+    .a-blocks {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 24px !important;
+    }
+    
+    .ampl, .cont, .remo, .visu {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    
+    .title {
+        font-size: 1.2rem !important;
+    }
+    
+    .particular {
+        font-size: 13px !important;
+    }
+    
+    /* Картинка горы */
+    .mountains img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* See the Big Picture */
+    .seebigpic-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    
+    .seethe {
+        font-size: 28px !important;
+    }
+    
+    .smalldesc {
+        font-size: 14px !important;
+    }
+    
+    .verysmalldesc {
+        padding: 12px !important;
+        font-size: 13px !important;
+    }
+    
+    .right-container img {
+        width: 100% !important;
+        transform: none !important;
+        margin: 0 !important;
+    }
+    
+    /* Why Choose Area */
+    .text-container {
+        margin-top: 50px !important;
+    }
+    
+    .whychoose {
+        font-size: 30px !important;
+    }
+    
+    .another-small-desc {
+        font-size: 13px !important;
+        padding: 0 10px 20px 10px !important;
+    }
+    
+    .another-button {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+    
+    /* Таблица сравнения - вертикально */
+    .table {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+    
+    .column1, .column2, .column3 {
+        width: 100% !important;
+    }
+    
+    .name-of-column, .name-of-column1 {
+        font-size: 20px !important;
+        padding: 12px !important;
+    }
+    
+    .column-list-text, .websurgeon-list-text, .hyperview-list-text {
+        margin-left: 35px !important;
+        font-size: 12px !important;
+    }
+    
+    /* Секция с цитатой */
+    .iwassceptical {
+        flex-direction: column !important;
+        margin-top: 40px !important;
+        gap: 20px !important;
+    }
+    
+    .iwassc {
+        font-size: 20px !important;
+        padding-top: 30px !important;
+        padding-left: 0 !important;
+    }
+    
+    .author, .headof {
+        padding-left: 0 !important;
+    }
+    
+    .ballimage {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Map Your Success */
+    .titlemap {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
+    }
+    
+    .titlemap-text {
+        font-size: 28px !important;
+    }
+    
+    .pluses-container {
+        flex-direction: column !important;
+        gap: 24px !important;
+    }
+    
+    .number-up {
+        font-size: 40px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    .name-of-container {
+        font-size: 18px !important;
+    }
+    
+    .description-of-container {
+        font-size: 13px !important;
+    }
+    
+    .ver-cool-img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Connect with us */
+    .connect {
+        font-size: 32px !important;
+        padding-top: 40px !important;
+    }
+    
+    .connect-desc {
+        font-size: 13px !important;
+    }
+    
+    .learn-button {
+        width: 80% !important;
+        padding: 10px 0 !important;
+        font-size: 14px !important;
+    }
+    
+    .cont-center {
+        padding-bottom: 40px !important;
+    }
+    
+    /* Футер */
+    .anchors {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 16px !important;
+    }
+    
+    .anchors a {
+        font-size: 13px !important;
+    }
+    
+    .under-cont {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+    
+    .under-text {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        flex-direction: column !important;
+        gap: 5px !important;
+        text-align: center !important;
+    }
+    
+    .people-img {
+        text-align: center !important;
+    }
+}
+
+/* Общие фиксы для всех устройств */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Фикс для кнопки Learn More (чтобы не обрезалась) */
+.heade, header {
+    overflow: visible !important;
+}
+
+.top-button {
+    overflow: visible !important;
+    white-space: nowrap !important;
+}
